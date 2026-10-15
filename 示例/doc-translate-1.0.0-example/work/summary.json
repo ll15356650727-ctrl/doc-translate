@@ -1,0 +1,22 @@
+{
+  "files_read": 3,
+  "blocked": [],
+  "conflicts": [],
+  "warnings": [
+    {
+      "file": "help.md",
+      "items": [
+        "Frontmatter 保留原样",
+        "代码围栏保留原样"
+      ]
+    }
+  ],
+  "segments": 28,
+  "pending_unique": 0,
+  "reused_segments": 28,
+  "source_characters": 380,
+  "pending_unique_characters": 0,
+  "reused_source_characters": 380,
+  "deduplicated_source_characters": 0,
+  "measurement": "字符统计，非 Token 实测"
+}

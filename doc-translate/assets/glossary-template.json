@@ -1,0 +1,7 @@
+{
+  "schema_version": "1.0",
+  "entries": [
+    {"source": "关键结果", "target": "key result", "status": "candidate", "keep": false, "case_sensitive": false},
+    {"source": "Northstar", "target": "Northstar", "status": "confirmed", "keep": true, "case_sensitive": true}
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "schema_version": "1.0",
+  "entries": [
+    {"source": "目标", "target": "objective", "status": "confirmed", "case_sensitive": false},
+    {"source": "关键结果", "target": "key result", "status": "confirmed", "case_sensitive": false},
+    {"source": "团队负责人", "target": "team lead", "status": "confirmed", "case_sensitive": false},
+    {"source": "团队成员", "target": "team member", "status": "confirmed", "case_sensitive": false}
+  ]
+}

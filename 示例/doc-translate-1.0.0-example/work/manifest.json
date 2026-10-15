@@ -1,0 +1,1047 @@
+{
+  "schema_version": "1.0",
+  "version": "1.0.0",
+  "source_root": "/Users/clown/Documents/ChatGPT/产品方案设计助手/专业文档翻译与校对/示例/doc-translate-1.0.0-example/input",
+  "policy": {
+    "target": "en",
+    "context": "面向企业用户的产品说明，保留权限边界和否定条件，简明正式",
+    "glossary": {
+      "schema_version": "1.0",
+      "entries": [
+        {
+          "source": "目标",
+          "target": "objective",
+          "status": "confirmed",
+          "case_sensitive": false
+        },
+        {
+          "source": "关键结果",
+          "target": "key result",
+          "status": "confirmed",
+          "case_sensitive": false
+        },
+        {
+          "source": "团队负责人",
+          "target": "team lead",
+          "status": "confirmed",
+          "case_sensitive": false
+        },
+        {
+          "source": "团队成员",
+          "target": "team member",
+          "status": "confirmed",
+          "case_sensitive": false
+        }
+      ]
+    }
+  },
+  "policy_hash": "03cdeecc548f6b8a4b796ee0c4963167f1fa8f2856ebfe4d87d25093f6cb4068",
+  "glossary": {
+    "schema_version": "1.0",
+    "entries": [
+      {
+        "source": "目标",
+        "target": "objective",
+        "status": "confirmed",
+        "case_sensitive": false
+      },
+      {
+        "source": "关键结果",
+        "target": "key result",
+        "status": "confirmed",
+        "case_sensitive": false
+      },
+      {
+        "source": "团队负责人",
+        "target": "team lead",
+        "status": "confirmed",
+        "case_sensitive": false
+      },
+      {
+        "source": "团队成员",
+        "target": "team member",
+        "status": "confirmed",
+        "case_sensitive": false
+      }
+    ]
+  },
+  "files": [
+    {
+      "file": "help.md",
+      "path": "/Users/clown/Documents/ChatGPT/产品方案设计助手/专业文档翻译与校对/示例/doc-translate-1.0.0-example/input/help.md",
+      "encoding": "utf-8",
+      "sha256": "3eb45f893c47a5539ef5a9188b55ba38c16235919b6f93fcee867650854a49bd",
+      "warnings": [
+        "Frontmatter 保留原样",
+        "代码围栏保留原样"
+      ]
+    },
+    {
+      "file": "notice.txt",
+      "path": "/Users/clown/Documents/ChatGPT/产品方案设计助手/专业文档翻译与校对/示例/doc-translate-1.0.0-example/input/notice.txt",
+      "encoding": "utf-8",
+      "sha256": "99d0567fdd5f732b47a4dae4b62933e7039275b0b5f0258cb6708dfd8a66ef23",
+      "warnings": []
+    },
+    {
+      "file": "progress.docx",
+      "path": "/Users/clown/Documents/ChatGPT/产品方案设计助手/专业文档翻译与校对/示例/doc-translate-1.0.0-example/input/progress.docx",
+      "encoding": null,
+      "sha256": "3f8bb2b0af9e91eeb9251d811a41b98e44ff048d954b873780a8a54a39d47e4f",
+      "warnings": []
+    }
+  ],
+  "segments": [
+    {
+      "locator": "line:6:2",
+      "source": "目标管理使用说明",
+      "context": "目标管理使用说明",
+      "range": [
+        41,
+        49
+      ],
+      "kind": "text",
+      "id": "b3cb9e473d6b3c7f30a45793",
+      "file": "help.md",
+      "masked": "⟦P0000⟧管理使用说明",
+      "protected": [
+        {
+          "token": "⟦P0000⟧",
+          "source": "目标",
+          "replacement": "objective"
+        }
+      ],
+      "terms": [
+        {
+          "source": "目标",
+          "target": "objective",
+          "status": "confirmed",
+          "case_sensitive": false
+        }
+      ],
+      "cache_key": "eb296fcc36b7d29aaa3e76b70d8c28b8c6b0204490972e78d204fa80ded597b8",
+      "status": "translated",
+      "translation": "Guide to ⟦P0000⟧ management",
+      "review": {
+        "status": "PASS",
+        "method": "contextual",
+        "notes": "标题指向目标管理使用方法，保留已确认术语。"
+      },
+      "keep_original": false,
+      "reason": "",
+      "reuse": "cached"
+    },
+    {
+      "locator": "line:8:0",
+      "source": "团队负责人可以创建目标，团队成员只能更新自己负责的关键结果。",
+      "context": "目标管理使用说明",
+      "range": [
+        51,
+        81
+      ],
+      "kind": "text",
+      "id": "d79a8a94f3dd52e30931c77e",
+      "file": "help.md",
+      "masked": "⟦P0000⟧可以创建⟦P0001⟧，⟦P0002⟧只能更新自己负责的⟦P0003⟧。",
+      "protected": [
+        {
+          "token": "⟦P0000⟧",
+          "source": "团队负责人",
+          "replacement": "team lead"
+        },
+        {
+          "token": "⟦P0001⟧",
+          "source": "目标",
+          "replacement": "objective"
+        },
+        {
+          "token": "⟦P0002⟧",
+          "source": "团队成员",
+          "replacement": "team member"
+        },
+        {
+          "token": "⟦P0003⟧",
+          "source": "关键结果",
+          "replacement": "key result"
+        }
+      ],
+      "terms": [
+        {
+          "source": "目标",
+          "target": "objective",
+          "status": "confirmed",
+          "case_sensitive": false
+        },
+        {
+          "source": "关键结果",
+          "target": "key result",
+          "status": "confirmed",
+          "case_sensitive": false
+        },
+        {
+          "source": "团队负责人",
+          "target": "team lead",
+          "status": "confirmed",
+          "case_sensitive": false
+        },
+        {
+          "source": "团队成员",
+          "target": "team member",
+          "status": "confirmed",
+          "case_sensitive": false
+        }
+      ],
+      "cache_key": "fe47d54ee2a4c41929fa0ba29b7c71ab95ea29f126205ad03c5ab8d297cbbb19",
+      "status": "translated",
+      "translation": "A ⟦P0000⟧ can create an ⟦P0001⟧. A ⟦P0002⟧ can only update a ⟦P0003⟧ assigned to them.",
+      "review": {
+        "status": "PASS",
+        "method": "contextual",
+        "notes": "核对负责人创建权限、成员仅更新自己负责内容的限制，单数泛指不改变角色范围。"
+      },
+      "keep_original": false,
+      "reason": "",
+      "reuse": "cached"
+    },
+    {
+      "locator": "line:10:3",
+      "source": "更新进度",
+      "context": "更新进度",
+      "range": [
+        86,
+        90
+      ],
+      "kind": "text",
+      "id": "638b53b15ffd5ba35357dd16",
+      "file": "help.md",
+      "masked": "更新进度",
+      "protected": [],
+      "terms": [],
+      "cache_key": "cd5281c5c56f8388164bb584ab6bba372e9baa3eafa18c1b295d85f15af4a036",
+      "status": "translated",
+      "translation": "Update progress",
+      "review": {
+        "status": "PASS",
+        "method": "contextual",
+        "notes": "此处为操作章节标题，使用动词短语。"
+      },
+      "keep_original": false,
+      "reason": "",
+      "reuse": "cached"
+    },
+    {
+      "locator": "line:12:3",
+      "source": "打开目标详情，选择需要更新的关键结果。",
+      "context": "更新进度",
+      "range": [
+        95,
+        114
+      ],
+      "kind": "text",
+      "id": "da07b861b83290998203cda8",
+      "file": "help.md",
+      "masked": "打开⟦P0000⟧详情，选择需要更新的⟦P0001⟧。",
+      "protected": [
+        {
+          "token": "⟦P0000⟧",
+          "source": "目标",
+          "replacement": "objective"
+        },
+        {
+          "token": "⟦P0001⟧",
+          "source": "关键结果",
+          "replacement": "key result"
+        }
+      ],
+      "terms": [
+        {
+          "source": "目标",
+          "target": "objective",
+          "status": "confirmed",
+          "case_sensitive": false
+        },
+        {
+          "source": "关键结果",
+          "target": "key result",
+          "status": "confirmed",
+          "case_sensitive": false
+        }
+      ],
+      "cache_key": "5e06fc7c7ebdcc9e5e4bc9923e30d45168d301cc543c87570d4de3673562c0f0",
+      "status": "translated",
+      "translation": "Open the ⟦P0000⟧ details and select the ⟦P0001⟧ to update.",
+      "review": {
+        "status": "PASS",
+        "method": "contextual",
+        "notes": "保持先打开详情再选择关键结果的操作次序。"
+      },
+      "keep_original": false,
+      "reason": "",
+      "reuse": "cached"
+    },
+    {
+      "locator": "line:13:3",
+      "source": "填写进展说明后保存；进度更新不需要负责人审核。",
+      "context": "更新进度",
+      "range": [
+        118,
+        141
+      ],
+      "kind": "text",
+      "id": "4368fdea81ed624d1e99f9a7",
+      "file": "help.md",
+      "masked": "填写进展说明后保存；进度更新不需要负责人审核。",
+      "protected": [],
+      "terms": [],
+      "cache_key": "c7e47e78868e6d48c205a81f2667cf9d7c4ecb269eee3654003336365ae8ffa9",
+      "status": "translated",
+      "translation": "Enter a progress note and save. Progress updates do not require approval from the team lead.",
+      "review": {
+        "status": "PASS",
+        "method": "contextual",
+        "notes": "保留先填写后保存的条件，特别核对不需要审核的否定含义。"
+      },
+      "keep_original": false,
+      "reason": "",
+      "reuse": "cached"
+    },
+    {
+      "locator": "line:15:2",
+      "source": "字段",
+      "context": "更新进度",
+      "range": [
+        145,
+        147
+      ],
+      "kind": "text",
+      "id": "d1ce50e522d779914d902077",
+      "file": "help.md",
+      "masked": "字段",
+      "protected": [],
+      "terms": [],
+      "cache_key": "9d3082f8ea40f6ab1a777fdb3538e4c7527425a63b72f5fb2645a4af655a20f0",
+      "status": "translated",
+      "translation": "Field",
+      "review": {
+        "status": "PASS",
+        "method": "contextual",
+        "notes": "表格字段名称列表的表头。"
+      },
+      "keep_original": false,
+      "reason": "",
+      "reuse": "cached"
+    },
+    {
+      "locator": "line:15:7",
+      "source": "说明",
+      "context": "更新进度",
+      "range": [
+        150,
+        152
+      ],
+      "kind": "text",
+      "id": "dec57463f0603c8e6fc28873",
+      "file": "help.md",
+      "masked": "说明",
+      "protected": [],
+      "terms": [],
+      "cache_key": "2744f49395fa0179ad35f41fc484b7fd6683d65c808caa2a2e4304b0fad51e43",
+      "status": "translated",
+      "translation": "Description",
+      "review": {
+        "status": "PASS",
+        "method": "contextual",
+        "notes": "表格第二列解释字段含义，采用说明性表头。"
+      },
+      "keep_original": false,
+      "reason": "",
+      "reuse": "cached"
+    },
+    {
+      "locator": "line:17:2",
+      "source": "截止日期",
+      "context": "更新进度",
+      "range": [
+        171,
+        175
+      ],
+      "kind": "text",
+      "id": "b5ce388c44f1d9a6d97dae65",
+      "file": "help.md",
+      "masked": "截止日期",
+      "protected": [],
+      "terms": [],
+      "cache_key": "85748fc81d99315056a52e3ba7b2f59293ec74843885bd928c9ee4add0cff661",
+      "status": "translated",
+      "translation": "Deadline",
+      "review": {
+        "status": "PASS",
+        "method": "contextual",
+        "notes": "对应目标的截止时间，不引入新的日期。"
+      },
+      "keep_original": false,
+      "reason": "",
+      "reuse": "cached"
+    },
+    {
+      "locator": "line:18:2",
+      "source": "提醒阈值",
+      "context": "更新进度",
+      "range": [
+        193,
+        197
+      ],
+      "kind": "text",
+      "id": "e87f49b4eb17fd8f4fcde2d0",
+      "file": "help.md",
+      "masked": "提醒阈值",
+      "protected": [],
+      "terms": [],
+      "cache_key": "462ca8710a399f278096b7d333d329e5fe5c2414bc060d59acc56feeade7261e",
+      "status": "translated",
+      "translation": "Reminder threshold",
+      "review": {
+        "status": "PASS",
+        "method": "contextual",
+        "notes": "表示触发提醒的完成率阈值。"
+      },
+      "keep_original": false,
+      "reason": "",
+      "reuse": "cached"
+    },
+    {
+      "locator": "line:18:9",
+      "source": "完成率低于 60% 时提醒负责人",
+      "context": "更新进度",
+      "range": [
+        200,
+        216
+      ],
+      "kind": "text",
+      "id": "78d719760125a54a81975616",
+      "file": "help.md",
+      "masked": "完成率低于 ⟦P0000⟧ 时提醒负责人",
+      "protected": [
+        {
+          "token": "⟦P0000⟧",
+          "source": "60%",
+          "replacement": "60%"
+        }
+      ],
+      "terms": [],
+      "cache_key": "340843f50b148edbbaf91c8739792fb4725bddc02d206fc843a17fa9baa5cfd5",
+      "status": "translated",
+      "translation": "Notify the team lead when completion falls below ⟦P0000⟧",
+      "review": {
+        "status": "PASS",
+        "method": "contextual",
+        "notes": "低于为严格小于，提醒对象仍为负责人，百分比由保护值回填。"
+      },
+      "keep_original": false,
+      "reason": "",
+      "reuse": "cached"
+    },
+    {
+      "locator": "line:20:2",
+      "source": "删除目标后不能恢复，请先确认。",
+      "context": "更新进度",
+      "range": [
+        222,
+        237
+      ],
+      "kind": "text",
+      "id": "16294018f73c7f57cc4e60e8",
+      "file": "help.md",
+      "masked": "删除⟦P0000⟧后不能恢复，请先确认。",
+      "protected": [
+        {
+          "token": "⟦P0000⟧",
+          "source": "目标",
+          "replacement": "objective"
+        }
+      ],
+      "terms": [
+        {
+          "source": "目标",
+          "target": "objective",
+          "status": "confirmed",
+          "case_sensitive": false
+        }
+      ],
+      "cache_key": "52c3d45b788bcd1cc7fed9dc492b78433b90bb49f47ed088879be2474320374b",
+      "status": "translated",
+      "translation": "A deleted ⟦P0000⟧ cannot be restored. Please confirm before deleting it.",
+      "review": {
+        "status": "PASS",
+        "method": "contextual",
+        "notes": "保留删除不可恢复的后果与事前确认要求。"
+      },
+      "keep_original": false,
+      "reason": "",
+      "reuse": "cached"
+    },
+    {
+      "locator": "line:22:0",
+      "source": "查看 [帮助中心](https://example.org/help)。接口字段 `goal_id` 和变量 {member_name} 必须保留。",
+      "context": "更新进度",
+      "range": [
+        239,
+        313
+      ],
+      "kind": "text",
+      "id": "c82583c7c32b328992a8ac66",
+      "file": "help.md",
+      "masked": "查看 ⟦P0000⟧帮助中心⟦P0001⟧。接口字段 ⟦P0002⟧ 和变量 ⟦P0003⟧ 必须保留。",
+      "protected": [
+        {
+          "token": "⟦P0000⟧",
+          "source": "[",
+          "replacement": "["
+        },
+        {
+          "token": "⟦P0001⟧",
+          "source": "](https://example.org/help)",
+          "replacement": "](https://example.org/help)"
+        },
+        {
+          "token": "⟦P0002⟧",
+          "source": "`goal_id`",
+          "replacement": "`goal_id`"
+        },
+        {
+          "token": "⟦P0003⟧",
+          "source": "{member_name}",
+          "replacement": "{member_name}"
+        }
+      ],
+      "terms": [],
+      "cache_key": "5ada689fb4246ac2795d1fceeff7bad920acd36de321bf833018920975864552",
+      "status": "translated",
+      "translation": "See the ⟦P0000⟧Help Center⟦P0001⟧. The API field ⟦P0002⟧ and the variable ⟦P0003⟧ must remain unchanged.",
+      "review": {
+        "status": "PASS",
+        "method": "contextual",
+        "notes": "只翻译可见链接标签；地址、接口字段及变量保持原样。"
+      },
+      "keep_original": false,
+      "reason": "",
+      "reuse": "cached"
+    },
+    {
+      "locator": "line:1:0",
+      "source": "文件导出通知",
+      "context": "",
+      "range": [
+        0,
+        6
+      ],
+      "kind": "text",
+      "id": "162f7117c3658129884e37d2",
+      "file": "notice.txt",
+      "masked": "文件导出通知",
+      "protected": [],
+      "terms": [],
+      "cache_key": "6e06a419c56a2df4b14dbbb2e0ec317e01276ced9e801f02b83048109b969c57",
+      "status": "translated",
+      "translation": "File export notice",
+      "review": {
+        "status": "PASS",
+        "method": "contextual",
+        "notes": "通知标题，保留文件导出场景。"
+      },
+      "keep_original": false,
+      "reason": "",
+      "reuse": "cached"
+    },
+    {
+      "locator": "line:3:0",
+      "source": "导出链接将在 24 小时后失效。",
+      "context": "",
+      "range": [
+        8,
+        24
+      ],
+      "kind": "text",
+      "id": "6511ef7cbfcf4efe4a1d7586",
+      "file": "notice.txt",
+      "masked": "导出链接将在 ⟦P0000⟧ 小时后失效。",
+      "protected": [
+        {
+          "token": "⟦P0000⟧",
+          "source": "24",
+          "replacement": "24"
+        }
+      ],
+      "terms": [],
+      "cache_key": "8a89a734fa6440d808ac0a4ca7893cc29693b03ba1f5f19b154ae84db85ebf94",
+      "status": "translated",
+      "translation": "The export link will expire after ⟦P0000⟧ hours.",
+      "review": {
+        "status": "PASS",
+        "method": "contextual",
+        "notes": "时间间隔为小时，链接到期而非文件删除。"
+      },
+      "keep_original": false,
+      "reason": "",
+      "reuse": "cached"
+    },
+    {
+      "locator": "line:5:0",
+      "source": "如果没有收到邮件，请联系 support@example.org。",
+      "context": "",
+      "range": [
+        26,
+        59
+      ],
+      "kind": "text",
+      "id": "2298c49f3f949a156a678ce6",
+      "file": "notice.txt",
+      "masked": "如果没有收到邮件，请联系 ⟦P0000⟧。",
+      "protected": [
+        {
+          "token": "⟦P0000⟧",
+          "source": "support@example.org",
+          "replacement": "support@example.org"
+        }
+      ],
+      "terms": [],
+      "cache_key": "4f0c97972a5e01fe741bc7c22427914432db75363b19a764bb666e50a5d51736",
+      "status": "translated",
+      "translation": "If you have not received the email, please contact ⟦P0000⟧.",
+      "review": {
+        "status": "PASS",
+        "method": "contextual",
+        "notes": "保留未收到邮件的前提及联系方式。"
+      },
+      "keep_original": false,
+      "reason": "",
+      "reuse": "cached"
+    },
+    {
+      "locator": "word/document.xml:text:0",
+      "source": "目标进度更新规则",
+      "context": "目标进度更新规则",
+      "range": [
+        1301,
+        1309
+      ],
+      "part": "word/document.xml",
+      "kind": "word",
+      "id": "c396f01150c29ceec454531f",
+      "file": "progress.docx",
+      "masked": "⟦P0000⟧进度更新规则",
+      "protected": [
+        {
+          "token": "⟦P0000⟧",
+          "source": "目标",
+          "replacement": "objective"
+        }
+      ],
+      "terms": [
+        {
+          "source": "目标",
+          "target": "objective",
+          "status": "confirmed",
+          "case_sensitive": false
+        }
+      ],
+      "cache_key": "9033514077c946d3d63a0924e6f4cf93ec88368ba1e4189a287c7567b4f74a6c",
+      "status": "translated",
+      "translation": "Rules for updating ⟦P0000⟧ progress",
+      "review": {
+        "status": "PASS",
+        "method": "contextual",
+        "notes": "Word 标题描述进度更新规则，不扩大为全部管理规则。"
+      },
+      "keep_original": false,
+      "reason": "",
+      "reuse": "cached"
+    },
+    {
+      "locator": "word/document.xml:text:1",
+      "source": "团队成员只能更新自己负责的关键结果。",
+      "context": "团队成员只能更新自己负责的关键结果。",
+      "range": [
+        1342,
+        1360
+      ],
+      "part": "word/document.xml",
+      "kind": "word",
+      "id": "181635ecc1893dab3dda638c",
+      "file": "progress.docx",
+      "masked": "⟦P0000⟧只能更新自己负责的⟦P0001⟧。",
+      "protected": [
+        {
+          "token": "⟦P0000⟧",
+          "source": "团队成员",
+          "replacement": "team member"
+        },
+        {
+          "token": "⟦P0001⟧",
+          "source": "关键结果",
+          "replacement": "key result"
+        }
+      ],
+      "terms": [
+        {
+          "source": "关键结果",
+          "target": "key result",
+          "status": "confirmed",
+          "case_sensitive": false
+        },
+        {
+          "source": "团队成员",
+          "target": "team member",
+          "status": "confirmed",
+          "case_sensitive": false
+        }
+      ],
+      "cache_key": "bb63c422969f96d6b3a302f47e5840782a938dbe8abfd2faafb6b2e6e70ae9a9",
+      "status": "translated",
+      "translation": "A ⟦P0000⟧ can only update a ⟦P0001⟧ assigned to them.",
+      "review": {
+        "status": "PASS",
+        "method": "contextual",
+        "notes": "核对只处理本人负责内容的权限边界。"
+      },
+      "keep_original": false,
+      "reason": "",
+      "reuse": "cached"
+    },
+    {
+      "locator": "word/document.xml:text:2",
+      "source": "进度更新不需要负责人审核。",
+      "context": "进度更新不需要负责人审核。",
+      "range": [
+        1393,
+        1406
+      ],
+      "part": "word/document.xml",
+      "kind": "word",
+      "id": "761aeb03eab4016ec1e764b1",
+      "file": "progress.docx",
+      "masked": "进度更新不需要负责人审核。",
+      "protected": [],
+      "terms": [],
+      "cache_key": "39310bff3050566f0d8c749a425bed666625dfcfa4a15bf5a0a87f097638b7a2",
+      "status": "translated",
+      "translation": "Progress updates do not require approval from the team lead.",
+      "review": {
+        "status": "PASS",
+        "method": "contextual",
+        "notes": "否定审核要求，语义与 Markdown 示例一致。"
+      },
+      "keep_original": false,
+      "reason": "",
+      "reuse": "cached"
+    },
+    {
+      "locator": "word/document.xml:text:3",
+      "source": "填写要求",
+      "context": "填写要求",
+      "range": [
+        1482,
+        1486
+      ],
+      "part": "word/document.xml",
+      "kind": "word",
+      "id": "00b45a047518a72235c9e39d",
+      "file": "progress.docx",
+      "masked": "填写要求",
+      "protected": [],
+      "terms": [],
+      "cache_key": "2c84c9a29a660393563dc98c13381c607ece8f0b239cdb32d5cdfbbc9d77f892",
+      "status": "translated",
+      "translation": "Entry requirements",
+      "review": {
+        "status": "PASS",
+        "method": "contextual",
+        "notes": "下方表格给出填写时的要求。"
+      },
+      "keep_original": false,
+      "reason": "",
+      "reuse": "cached"
+    },
+    {
+      "locator": "word/document.xml:text:4",
+      "source": "字段",
+      "context": "字段",
+      "range": [
+        1934,
+        1936
+      ],
+      "part": "word/document.xml",
+      "kind": "word",
+      "id": "9296095629802ee66537e7fe",
+      "file": "progress.docx",
+      "masked": "字段",
+      "protected": [],
+      "terms": [],
+      "cache_key": "be835867dad882bf71292f2bcb8eebfc2a5d01e093eebaf519c6e33e20fc6d50",
+      "status": "translated",
+      "translation": "Field",
+      "review": {
+        "status": "PASS",
+        "method": "contextual",
+        "notes": "Word 表格第一列表头。"
+      },
+      "keep_original": false,
+      "reason": "",
+      "reuse": "cached"
+    },
+    {
+      "locator": "word/document.xml:text:5",
+      "source": "说明",
+      "context": "说明",
+      "range": [
+        2111,
+        2113
+      ],
+      "part": "word/document.xml",
+      "kind": "word",
+      "id": "bd0d3d7ea5c0e444e69faa9b",
+      "file": "progress.docx",
+      "masked": "说明",
+      "protected": [],
+      "terms": [],
+      "cache_key": "55314ce2aa8cb5a5c2196db136d1ee93e84270cc1c637efd7e09bf9ecb3fa41d",
+      "status": "translated",
+      "translation": "Description",
+      "review": {
+        "status": "PASS",
+        "method": "contextual",
+        "notes": "Word 表格说明列表头。"
+      },
+      "keep_original": false,
+      "reason": "",
+      "reuse": "cached"
+    },
+    {
+      "locator": "word/document.xml:text:6",
+      "source": "进展说明",
+      "context": "进展说明",
+      "range": [
+        2277,
+        2281
+      ],
+      "part": "word/document.xml",
+      "kind": "word",
+      "id": "a54dcd5ce1c1723307e9815c",
+      "file": "progress.docx",
+      "masked": "进展说明",
+      "protected": [],
+      "terms": [],
+      "cache_key": "5903c89441d25d00729425696c49b3fbc4d1457ead9d6984d7ce9ce96eb80803",
+      "status": "translated",
+      "translation": "Progress note",
+      "review": {
+        "status": "PASS",
+        "method": "contextual",
+        "notes": "指每次更新填写的文字说明。"
+      },
+      "keep_original": false,
+      "reason": "",
+      "reuse": "cached"
+    },
+    {
+      "locator": "word/document.xml:text:7",
+      "source": "每次更新均为必填。",
+      "context": "每次更新均为必填。",
+      "range": [
+        2432,
+        2441
+      ],
+      "part": "word/document.xml",
+      "kind": "word",
+      "id": "154de3f002150aa0036dd1a3",
+      "file": "progress.docx",
+      "masked": "每次更新均为必填。",
+      "protected": [],
+      "terms": [],
+      "cache_key": "3986b971028e0ba6371d0b909408f6f223c5161fe3ce8dd874a32d962a6f42d1",
+      "status": "translated",
+      "translation": "Required for every update.",
+      "review": {
+        "status": "PASS",
+        "method": "contextual",
+        "notes": "保留每次更新都必填，未弱化为可选项。"
+      },
+      "keep_original": false,
+      "reason": "",
+      "reuse": "cached"
+    },
+    {
+      "locator": "word/document.xml:text:8",
+      "source": "提醒阈值",
+      "context": "提醒阈值",
+      "range": [
+        2605,
+        2609
+      ],
+      "part": "word/document.xml",
+      "kind": "word",
+      "id": "fcd088f25c47cc569322a127",
+      "file": "progress.docx",
+      "masked": "提醒阈值",
+      "protected": [],
+      "terms": [],
+      "cache_key": "d8cd14f140afbc10e04a99b16af46d20a88512c59382f1b46cda56bdfdf38f75",
+      "status": "translated",
+      "translation": "Reminder threshold",
+      "review": {
+        "status": "PASS",
+        "method": "contextual",
+        "notes": "与 Markdown 同名字段保持译法一致。"
+      },
+      "keep_original": false,
+      "reason": "",
+      "reuse": "cached"
+    },
+    {
+      "locator": "word/document.xml:text:9",
+      "source": "完成率低于 60% 时提醒负责人。",
+      "context": "完成率低于 60% 时提醒负责人。",
+      "range": [
+        2760,
+        2777
+      ],
+      "part": "word/document.xml",
+      "kind": "word",
+      "id": "b3d1cfa49695185ff13002bd",
+      "file": "progress.docx",
+      "masked": "完成率低于 ⟦P0000⟧ 时提醒负责人。",
+      "protected": [
+        {
+          "token": "⟦P0000⟧",
+          "source": "60%",
+          "replacement": "60%"
+        }
+      ],
+      "terms": [],
+      "cache_key": "9934415dd44fa2f08cc07e28c7e13aa67686a55684f7e74f533bc54b9cf51b0e",
+      "status": "translated",
+      "translation": "Notify the team lead when completion falls below ⟦P0000⟧.",
+      "review": {
+        "status": "PASS",
+        "method": "contextual",
+        "notes": "核对小于阈值的条件、百分比和被提醒者。"
+      },
+      "keep_original": false,
+      "reason": "",
+      "reuse": "cached"
+    },
+    {
+      "locator": "word/document.xml:text:10",
+      "source": "查看帮助：https://example.org/help",
+      "context": "查看帮助：https://example.org/help",
+      "range": [
+        2832,
+        2861
+      ],
+      "part": "word/document.xml",
+      "kind": "word",
+      "id": "0bf155d205f23bf5746c6953",
+      "file": "progress.docx",
+      "masked": "查看帮助：⟦P0000⟧",
+      "protected": [
+        {
+          "token": "⟦P0000⟧",
+          "source": "https://example.org/help",
+          "replacement": "https://example.org/help"
+        }
+      ],
+      "terms": [],
+      "cache_key": "95050e144825e92c6d753342540d81244c2e006d7b4e130ed6ea8c214dbca74c",
+      "status": "translated",
+      "translation": "Help: ⟦P0000⟧",
+      "review": {
+        "status": "PASS",
+        "method": "contextual",
+        "notes": "保留帮助链接，只替换引导文案。"
+      },
+      "keep_original": false,
+      "reason": "",
+      "reuse": "cached"
+    },
+    {
+      "locator": "word/footer1.xml:text:0",
+      "source": "对外发送前请复核",
+      "context": "对外发送前请复核",
+      "range": [
+        1289,
+        1297
+      ],
+      "part": "word/footer1.xml",
+      "kind": "word",
+      "id": "f20bbef8d16a6a1ecaa26f1d",
+      "file": "progress.docx",
+      "masked": "对外发送前请复核",
+      "protected": [],
+      "terms": [],
+      "cache_key": "1848ac017205c1d9b3b0a276615c2b68db7d14f27b61952d50c62f38ddee4406",
+      "status": "translated",
+      "translation": "Review before sharing externally",
+      "review": {
+        "status": "PASS",
+        "method": "contextual",
+        "notes": "保留对外发送之前的复核提醒，适用于页脚。"
+      },
+      "keep_original": false,
+      "reason": "",
+      "reuse": "cached"
+    },
+    {
+      "locator": "word/header1.xml:text:0",
+      "source": "内部评审材料",
+      "context": "内部评审材料",
+      "range": [
+        1289,
+        1295
+      ],
+      "part": "word/header1.xml",
+      "kind": "word",
+      "id": "9726acc49ae108eb60982457",
+      "file": "progress.docx",
+      "masked": "内部评审材料",
+      "protected": [],
+      "terms": [],
+      "cache_key": "fc5ca5e4b5a0a8fb94eaab807010ef380fcd4a024922a1f591dccb4f82667f20",
+      "status": "translated",
+      "translation": "Internal review material",
+      "review": {
+        "status": "PASS",
+        "method": "contextual",
+        "notes": "页眉说明内部评审材料属性，未暗示已获对外批准。"
+      },
+      "keep_original": false,
+      "reason": "",
+      "reuse": "cached"
+    }
+  ],
+  "blocked": [],
+  "conflicts": [],
+  "removed_files": [],
+  "input_encoding": null,
+  "file_reviews": {
+    "help.md": {
+      "format": {
+        "status": "PASS",
+        "notes": "已逐项核对 Frontmatter product/version、JSON 代码块、链接、日期、百分比与变量，均保持原样；标题、表格和列表结构完整。",
+        "recorded_at": "2026-10-15T06:40:51.849133+00:00",
+        "output_sha256": "de6515431bcb9cf774c53f1d206ec8efd47866923804dc5cf7aba2d22f7d289c",
+        "source_sha256": "3eb45f893c47a5539ef5a9188b55ba38c16235919b6f93fcee867650854a49bd"
+      }
+    },
+    "progress.docx": {
+      "layout": {
+        "status": "PASS",
+        "notes": "已用文档渲染器生成并检查全部 1 页 PNG：标题、表格、页眉页脚可读，无文字遮挡或溢出。证据：qa/word/page-1.png。",
+        "recorded_at": "2026-10-15T06:40:51.947376+00:00",
+        "output_sha256": "7190b00123d9b5c8b65bc3cce3f32924111a02e2dcc8ddbb250a716b476d27a1",
+        "source_sha256": "3f8bb2b0af9e91eeb9251d811a41b98e44ff048d954b873780a8a54a39d47e4f"
+      }
+    }
+  },
+  "prepared_at": "2026-10-15T07:26:37.022635+00:00",
+  "batch_chars": 6000
+}

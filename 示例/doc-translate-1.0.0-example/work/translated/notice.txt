@@ -1,0 +1,5 @@
+File export notice
+
+The export link will expire after 24 hours.
+
+If you have not received the email, please contact support@example.org.

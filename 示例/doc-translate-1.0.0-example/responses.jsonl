@@ -1,0 +1,28 @@
+{"id":"b3cb9e473d6b3c7f30a45793","translation":"Guide to ⟦P0000⟧ management","review":{"status":"PASS","method":"contextual","notes":"标题指向目标管理使用方法，保留已确认术语。"}}
+{"id":"d79a8a94f3dd52e30931c77e","translation":"A ⟦P0000⟧ can create an ⟦P0001⟧. A ⟦P0002⟧ can only update a ⟦P0003⟧ assigned to them.","review":{"status":"PASS","method":"contextual","notes":"核对负责人创建权限、成员仅更新自己负责内容的限制，单数泛指不改变角色范围。"}}
+{"id":"638b53b15ffd5ba35357dd16","translation":"Update progress","review":{"status":"PASS","method":"contextual","notes":"此处为操作章节标题，使用动词短语。"}}
+{"id":"da07b861b83290998203cda8","translation":"Open the ⟦P0000⟧ details and select the ⟦P0001⟧ to update.","review":{"status":"PASS","method":"contextual","notes":"保持先打开详情再选择关键结果的操作次序。"}}
+{"id":"4368fdea81ed624d1e99f9a7","translation":"Enter a progress note and save. Progress updates do not require approval from the team lead.","review":{"status":"PASS","method":"contextual","notes":"保留先填写后保存的条件，特别核对不需要审核的否定含义。"}}
+{"id":"d1ce50e522d779914d902077","translation":"Field","review":{"status":"PASS","method":"contextual","notes":"表格字段名称列表的表头。"}}
+{"id":"dec57463f0603c8e6fc28873","translation":"Description","review":{"status":"PASS","method":"contextual","notes":"表格第二列解释字段含义，采用说明性表头。"}}
+{"id":"b5ce388c44f1d9a6d97dae65","translation":"Deadline","review":{"status":"PASS","method":"contextual","notes":"对应目标的截止时间，不引入新的日期。"}}
+{"id":"e87f49b4eb17fd8f4fcde2d0","translation":"Reminder threshold","review":{"status":"PASS","method":"contextual","notes":"表示触发提醒的完成率阈值。"}}
+{"id":"78d719760125a54a81975616","translation":"Notify the team lead when completion falls below ⟦P0000⟧","review":{"status":"PASS","method":"contextual","notes":"低于为严格小于，提醒对象仍为负责人，百分比由保护值回填。"}}
+{"id":"16294018f73c7f57cc4e60e8","translation":"A deleted ⟦P0000⟧ cannot be restored. Please confirm before deleting it.","review":{"status":"PASS","method":"contextual","notes":"保留删除不可恢复的后果与事前确认要求。"}}
+{"id":"c82583c7c32b328992a8ac66","translation":"See the ⟦P0000⟧Help Center⟦P0001⟧. The API field ⟦P0002⟧ and the variable ⟦P0003⟧ must remain unchanged.","review":{"status":"PASS","method":"contextual","notes":"只翻译可见链接标签；地址、接口字段及变量保持原样。"}}
+{"id":"162f7117c3658129884e37d2","translation":"File export notice","review":{"status":"PASS","method":"contextual","notes":"通知标题，保留文件导出场景。"}}
+{"id":"6511ef7cbfcf4efe4a1d7586","translation":"The export link will expire after ⟦P0000⟧ hours.","review":{"status":"PASS","method":"contextual","notes":"时间间隔为小时，链接到期而非文件删除。"}}
+{"id":"2298c49f3f949a156a678ce6","translation":"If you have not received the email, please contact ⟦P0000⟧.","review":{"status":"PASS","method":"contextual","notes":"保留未收到邮件的前提及联系方式。"}}
+{"id":"c396f01150c29ceec454531f","translation":"Rules for updating ⟦P0000⟧ progress","review":{"status":"PASS","method":"contextual","notes":"Word 标题描述进度更新规则，不扩大为全部管理规则。"}}
+{"id":"181635ecc1893dab3dda638c","translation":"A ⟦P0000⟧ can only update a ⟦P0001⟧ assigned to them.","review":{"status":"PASS","method":"contextual","notes":"核对只处理本人负责内容的权限边界。"}}
+{"id":"761aeb03eab4016ec1e764b1","translation":"Progress updates do not require approval from the team lead.","review":{"status":"PASS","method":"contextual","notes":"否定审核要求，语义与 Markdown 示例一致。"}}
+{"id":"00b45a047518a72235c9e39d","translation":"Entry requirements","review":{"status":"PASS","method":"contextual","notes":"下方表格给出填写时的要求。"}}
+{"id":"9296095629802ee66537e7fe","translation":"Field","review":{"status":"PASS","method":"contextual","notes":"Word 表格第一列表头。"}}
+{"id":"bd0d3d7ea5c0e444e69faa9b","translation":"Description","review":{"status":"PASS","method":"contextual","notes":"Word 表格说明列表头。"}}
+{"id":"a54dcd5ce1c1723307e9815c","translation":"Progress note","review":{"status":"PASS","method":"contextual","notes":"指每次更新填写的文字说明。"}}
+{"id":"154de3f002150aa0036dd1a3","translation":"Required for every update.","review":{"status":"PASS","method":"contextual","notes":"保留每次更新都必填，未弱化为可选项。"}}
+{"id":"fcd088f25c47cc569322a127","translation":"Reminder threshold","review":{"status":"PASS","method":"contextual","notes":"与 Markdown 同名字段保持译法一致。"}}
+{"id":"b3d1cfa49695185ff13002bd","translation":"Notify the team lead when completion falls below ⟦P0000⟧.","review":{"status":"PASS","method":"contextual","notes":"核对小于阈值的条件、百分比和被提醒者。"}}
+{"id":"0bf155d205f23bf5746c6953","translation":"Help: ⟦P0000⟧","review":{"status":"PASS","method":"contextual","notes":"保留帮助链接，只替换引导文案。"}}
+{"id":"f20bbef8d16a6a1ecaa26f1d","translation":"Review before sharing externally","review":{"status":"PASS","method":"contextual","notes":"保留对外发送之前的复核提醒，适用于页脚。"}}
+{"id":"9726acc49ae108eb60982457","translation":"Internal review material","review":{"status":"PASS","method":"contextual","notes":"页眉说明内部评审材料属性，未暗示已获对外批准。"}}

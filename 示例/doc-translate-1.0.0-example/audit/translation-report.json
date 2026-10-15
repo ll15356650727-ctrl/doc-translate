@@ -1,0 +1,80 @@
+{
+  "status": "PASS_AUTOMATED",
+  "semantic": "UNVERIFIED",
+  "layout": "UNVERIFIED",
+  "files": [
+    {
+      "file": "help.md",
+      "status": "PASS_AUTOMATED",
+      "detail": "保护内容初检通过；仍需语义审校"
+    }
+  ],
+  "pairs": [
+    {
+      "id": "1",
+      "source": "目标管理使用说明",
+      "translation": "Guide to objective management"
+    },
+    {
+      "id": "2",
+      "source": "团队负责人可以创建目标，团队成员只能更新自己负责的关键结果。",
+      "translation": "A team lead can create an objective. A team member can only update a key result assigned to them."
+    },
+    {
+      "id": "3",
+      "source": "更新进度",
+      "translation": "Update progress"
+    },
+    {
+      "id": "4",
+      "source": "打开目标详情，选择需要更新的关键结果。",
+      "translation": "Open the objective details and select the key result to update."
+    },
+    {
+      "id": "5",
+      "source": "填写进展说明后保存；进度更新不需要负责人审核。",
+      "translation": "Enter a progress note and save. Progress updates do not require approval from the team lead."
+    },
+    {
+      "id": "6",
+      "source": "字段",
+      "translation": "Field"
+    },
+    {
+      "id": "7",
+      "source": "说明",
+      "translation": "Description"
+    },
+    {
+      "id": "8",
+      "source": "截止日期",
+      "translation": "Deadline"
+    },
+    {
+      "id": "9",
+      "source": "提醒阈值",
+      "translation": "Reminder threshold"
+    },
+    {
+      "id": "10",
+      "source": "完成率低于 60% 时提醒负责人",
+      "translation": "Notify the team lead when completion falls below 60%"
+    },
+    {
+      "id": "11",
+      "source": "删除目标后不能恢复，请先确认。",
+      "translation": "A deleted objective cannot be restored. Please confirm before deleting it."
+    },
+    {
+      "id": "12",
+      "source": "查看 [帮助中心](https://example.org/help)。接口字段 `goal_id` 和变量 {member_name} 必须保留。",
+      "translation": "See the [Help Center](https://example.org/help). The API field `goal_id` and the variable {member_name} must remain unchanged."
+    }
+  ],
+  "warnings": [
+    "Frontmatter 保留原样",
+    "代码围栏保留原样",
+    "Frontmatter 保留原样",
+    "代码围栏保留原样"
+  ]
+}

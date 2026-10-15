@@ -1,0 +1,334 @@
+{
+  "status": "PASS_AUTOMATED",
+  "semantic": "PASS_CONTEXTUAL",
+  "layout": "PASS_RECORDED",
+  "generated_at": "2026-10-15T06:40:52.071573+00:00",
+  "files": [
+    {
+      "file": "help.md",
+      "status": "PASS_AUTOMATED",
+      "detail": [
+        "Frontmatter 保留原样",
+        "代码围栏保留原样"
+      ],
+      "output": "/Users/clown/Documents/ChatGPT/产品方案设计助手/专业文档翻译与校对/示例/doc-translate-1.0.0-example/work/translated/help.md",
+      "sha256": "de6515431bcb9cf774c53f1d206ec8efd47866923804dc5cf7aba2d22f7d289c",
+      "reviews": {
+        "format": {
+          "status": "PASS",
+          "notes": "已逐项核对 Frontmatter product/version、JSON 代码块、链接、日期、百分比与变量，均保持原样；标题、表格和列表结构完整。",
+          "recorded_at": "2026-10-15T06:40:51.849133+00:00",
+          "output_sha256": "de6515431bcb9cf774c53f1d206ec8efd47866923804dc5cf7aba2d22f7d289c",
+          "source_sha256": "3eb45f893c47a5539ef5a9188b55ba38c16235919b6f93fcee867650854a49bd"
+        }
+      }
+    },
+    {
+      "file": "notice.txt",
+      "status": "PASS_AUTOMATED",
+      "detail": "完整回填，保护内容检查通过",
+      "output": "/Users/clown/Documents/ChatGPT/产品方案设计助手/专业文档翻译与校对/示例/doc-translate-1.0.0-example/work/translated/notice.txt",
+      "sha256": "f046b872c2127f15c12474b13c24f469cdd160f9fbe0a219fc6217ebb3d7152c",
+      "reviews": {}
+    },
+    {
+      "file": "progress.docx",
+      "status": "PASS_AUTOMATED",
+      "detail": "完整回填，保护内容检查通过",
+      "output": "/Users/clown/Documents/ChatGPT/产品方案设计助手/专业文档翻译与校对/示例/doc-translate-1.0.0-example/work/translated/progress.docx",
+      "sha256": "7190b00123d9b5c8b65bc3cce3f32924111a02e2dcc8ddbb250a716b476d27a1",
+      "reviews": {
+        "layout": {
+          "status": "PASS",
+          "notes": "已用文档渲染器生成并检查全部 1 页 PNG：标题、表格、页眉页脚可读，无文字遮挡或溢出。证据：qa/word/page-1.png。",
+          "recorded_at": "2026-10-15T06:40:51.947376+00:00",
+          "output_sha256": "7190b00123d9b5c8b65bc3cce3f32924111a02e2dcc8ddbb250a716b476d27a1",
+          "source_sha256": "3f8bb2b0af9e91eeb9251d811a41b98e44ff048d954b873780a8a54a39d47e4f"
+        }
+      }
+    }
+  ],
+  "pairs": [
+    {
+      "id": "b3cb9e473d6b3c7f30a45793",
+      "source": "目标管理使用说明",
+      "translation": "Guide to objective management",
+      "review": {
+        "status": "PASS",
+        "method": "contextual",
+        "notes": "标题指向目标管理使用方法，保留已确认术语。"
+      }
+    },
+    {
+      "id": "d79a8a94f3dd52e30931c77e",
+      "source": "团队负责人可以创建目标，团队成员只能更新自己负责的关键结果。",
+      "translation": "A team lead can create an objective. A team member can only update a key result assigned to them.",
+      "review": {
+        "status": "PASS",
+        "method": "contextual",
+        "notes": "核对负责人创建权限、成员仅更新自己负责内容的限制，单数泛指不改变角色范围。"
+      }
+    },
+    {
+      "id": "638b53b15ffd5ba35357dd16",
+      "source": "更新进度",
+      "translation": "Update progress",
+      "review": {
+        "status": "PASS",
+        "method": "contextual",
+        "notes": "此处为操作章节标题，使用动词短语。"
+      }
+    },
+    {
+      "id": "da07b861b83290998203cda8",
+      "source": "打开目标详情，选择需要更新的关键结果。",
+      "translation": "Open the objective details and select the key result to update.",
+      "review": {
+        "status": "PASS",
+        "method": "contextual",
+        "notes": "保持先打开详情再选择关键结果的操作次序。"
+      }
+    },
+    {
+      "id": "4368fdea81ed624d1e99f9a7",
+      "source": "填写进展说明后保存；进度更新不需要负责人审核。",
+      "translation": "Enter a progress note and save. Progress updates do not require approval from the team lead.",
+      "review": {
+        "status": "PASS",
+        "method": "contextual",
+        "notes": "保留先填写后保存的条件，特别核对不需要审核的否定含义。"
+      }
+    },
+    {
+      "id": "d1ce50e522d779914d902077",
+      "source": "字段",
+      "translation": "Field",
+      "review": {
+        "status": "PASS",
+        "method": "contextual",
+        "notes": "表格字段名称列表的表头。"
+      }
+    },
+    {
+      "id": "dec57463f0603c8e6fc28873",
+      "source": "说明",
+      "translation": "Description",
+      "review": {
+        "status": "PASS",
+        "method": "contextual",
+        "notes": "表格第二列解释字段含义，采用说明性表头。"
+      }
+    },
+    {
+      "id": "b5ce388c44f1d9a6d97dae65",
+      "source": "截止日期",
+      "translation": "Deadline",
+      "review": {
+        "status": "PASS",
+        "method": "contextual",
+        "notes": "对应目标的截止时间，不引入新的日期。"
+      }
+    },
+    {
+      "id": "e87f49b4eb17fd8f4fcde2d0",
+      "source": "提醒阈值",
+      "translation": "Reminder threshold",
+      "review": {
+        "status": "PASS",
+        "method": "contextual",
+        "notes": "表示触发提醒的完成率阈值。"
+      }
+    },
+    {
+      "id": "78d719760125a54a81975616",
+      "source": "完成率低于 60% 时提醒负责人",
+      "translation": "Notify the team lead when completion falls below 60%",
+      "review": {
+        "status": "PASS",
+        "method": "contextual",
+        "notes": "低于为严格小于，提醒对象仍为负责人，百分比由保护值回填。"
+      }
+    },
+    {
+      "id": "16294018f73c7f57cc4e60e8",
+      "source": "删除目标后不能恢复，请先确认。",
+      "translation": "A deleted objective cannot be restored. Please confirm before deleting it.",
+      "review": {
+        "status": "PASS",
+        "method": "contextual",
+        "notes": "保留删除不可恢复的后果与事前确认要求。"
+      }
+    },
+    {
+      "id": "c82583c7c32b328992a8ac66",
+      "source": "查看 [帮助中心](https://example.org/help)。接口字段 `goal_id` 和变量 {member_name} 必须保留。",
+      "translation": "See the [Help Center](https://example.org/help). The API field `goal_id` and the variable {member_name} must remain unchanged.",
+      "review": {
+        "status": "PASS",
+        "method": "contextual",
+        "notes": "只翻译可见链接标签；地址、接口字段及变量保持原样。"
+      }
+    },
+    {
+      "id": "162f7117c3658129884e37d2",
+      "source": "文件导出通知",
+      "translation": "File export notice",
+      "review": {
+        "status": "PASS",
+        "method": "contextual",
+        "notes": "通知标题，保留文件导出场景。"
+      }
+    },
+    {
+      "id": "6511ef7cbfcf4efe4a1d7586",
+      "source": "导出链接将在 24 小时后失效。",
+      "translation": "The export link will expire after 24 hours.",
+      "review": {
+        "status": "PASS",
+        "method": "contextual",
+        "notes": "时间间隔为小时，链接到期而非文件删除。"
+      }
+    },
+    {
+      "id": "2298c49f3f949a156a678ce6",
+      "source": "如果没有收到邮件，请联系 support@example.org。",
+      "translation": "If you have not received the email, please contact support@example.org.",
+      "review": {
+        "status": "PASS",
+        "method": "contextual",
+        "notes": "保留未收到邮件的前提及联系方式。"
+      }
+    },
+    {
+      "id": "c396f01150c29ceec454531f",
+      "source": "目标进度更新规则",
+      "translation": "Rules for updating objective progress",
+      "review": {
+        "status": "PASS",
+        "method": "contextual",
+        "notes": "Word 标题描述进度更新规则，不扩大为全部管理规则。"
+      }
+    },
+    {
+      "id": "181635ecc1893dab3dda638c",
+      "source": "团队成员只能更新自己负责的关键结果。",
+      "translation": "A team member can only update a key result assigned to them.",
+      "review": {
+        "status": "PASS",
+        "method": "contextual",
+        "notes": "核对只处理本人负责内容的权限边界。"
+      }
+    },
+    {
+      "id": "761aeb03eab4016ec1e764b1",
+      "source": "进度更新不需要负责人审核。",
+      "translation": "Progress updates do not require approval from the team lead.",
+      "review": {
+        "status": "PASS",
+        "method": "contextual",
+        "notes": "否定审核要求，语义与 Markdown 示例一致。"
+      }
+    },
+    {
+      "id": "00b45a047518a72235c9e39d",
+      "source": "填写要求",
+      "translation": "Entry requirements",
+      "review": {
+        "status": "PASS",
+        "method": "contextual",
+        "notes": "下方表格给出填写时的要求。"
+      }
+    },
+    {
+      "id": "9296095629802ee66537e7fe",
+      "source": "字段",
+      "translation": "Field",
+      "review": {
+        "status": "PASS",
+        "method": "contextual",
+        "notes": "Word 表格第一列表头。"
+      }
+    },
+    {
+      "id": "bd0d3d7ea5c0e444e69faa9b",
+      "source": "说明",
+      "translation": "Description",
+      "review": {
+        "status": "PASS",
+        "method": "contextual",
+        "notes": "Word 表格说明列表头。"
+      }
+    },
+    {
+      "id": "a54dcd5ce1c1723307e9815c",
+      "source": "进展说明",
+      "translation": "Progress note",
+      "review": {
+        "status": "PASS",
+        "method": "contextual",
+        "notes": "指每次更新填写的文字说明。"
+      }
+    },
+    {
+      "id": "154de3f002150aa0036dd1a3",
+      "source": "每次更新均为必填。",
+      "translation": "Required for every update.",
+      "review": {
+        "status": "PASS",
+        "method": "contextual",
+        "notes": "保留每次更新都必填，未弱化为可选项。"
+      }
+    },
+    {
+      "id": "fcd088f25c47cc569322a127",
+      "source": "提醒阈值",
+      "translation": "Reminder threshold",
+      "review": {
+        "status": "PASS",
+        "method": "contextual",
+        "notes": "与 Markdown 同名字段保持译法一致。"
+      }
+    },
+    {
+      "id": "b3d1cfa49695185ff13002bd",
+      "source": "完成率低于 60% 时提醒负责人。",
+      "translation": "Notify the team lead when completion falls below 60%.",
+      "review": {
+        "status": "PASS",
+        "method": "contextual",
+        "notes": "核对小于阈值的条件、百分比和被提醒者。"
+      }
+    },
+    {
+      "id": "0bf155d205f23bf5746c6953",
+      "source": "查看帮助：https://example.org/help",
+      "translation": "Help: https://example.org/help",
+      "review": {
+        "status": "PASS",
+        "method": "contextual",
+        "notes": "保留帮助链接，只替换引导文案。"
+      }
+    },
+    {
+      "id": "f20bbef8d16a6a1ecaa26f1d",
+      "source": "对外发送前请复核",
+      "translation": "Review before sharing externally",
+      "review": {
+        "status": "PASS",
+        "method": "contextual",
+        "notes": "保留对外发送之前的复核提醒，适用于页脚。"
+      }
+    },
+    {
+      "id": "9726acc49ae108eb60982457",
+      "source": "内部评审材料",
+      "translation": "Internal review material",
+      "review": {
+        "status": "PASS",
+        "method": "contextual",
+        "notes": "页眉说明内部评审材料属性，未暗示已获对外批准。"
+      }
+    }
+  ],
+  "note": "机械检查不证明语义准确或版面一致；PASS_CONTEXTUAL 仅表示响应记录了上下文审校"
+}

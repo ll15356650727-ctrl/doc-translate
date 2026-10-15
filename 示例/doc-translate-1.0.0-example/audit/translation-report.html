@@ -1,0 +1,85 @@
+<!doctype html><html lang="zh-CN"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>文档翻译检查报告</title><style>body{font:16px/1.7 system-ui,sans-serif;max-width:1080px;margin:40px auto;padding:0 20px;color:#183330;background:#fafcfb}table{border-collapse:collapse;width:100%;margin:20px 0}th,td{border:1px solid #ceded8;padding:12px;text-align:left;vertical-align:top;white-space:pre-wrap;overflow-wrap:anywhere}th{background:#e5f1ed}pre{white-space:pre-wrap;overflow-wrap:anywhere;background:#edf4f1;padding:16px;border-radius:8px}</style>
+<h1>文档翻译检查报告</h1><p>机械检查：PASS_AUTOMATED · 语义：UNVERIFIED · 版面：UNVERIFIED</p>
+<table><thead><tr><th>文件</th><th>结论</th><th>说明</th></tr></thead><tbody><tr><td>help.md</td><td>PASS_AUTOMATED</td><td>保护内容初检通过；仍需语义审校</td></tr></tbody></table>
+<h2>原文与译文</h2><table><thead><tr><th>片段</th><th>原文</th><th>译文</th></tr></thead><tbody><tr><td>1</td><td>目标管理使用说明</td><td>Guide to objective management</td></tr><tr><td>2</td><td>团队负责人可以创建目标，团队成员只能更新自己负责的关键结果。</td><td>A team lead can create an objective. A team member can only update a key result assigned to them.</td></tr><tr><td>3</td><td>更新进度</td><td>Update progress</td></tr><tr><td>4</td><td>打开目标详情，选择需要更新的关键结果。</td><td>Open the objective details and select the key result to update.</td></tr><tr><td>5</td><td>填写进展说明后保存；进度更新不需要负责人审核。</td><td>Enter a progress note and save. Progress updates do not require approval from the team lead.</td></tr><tr><td>6</td><td>字段</td><td>Field</td></tr><tr><td>7</td><td>说明</td><td>Description</td></tr><tr><td>8</td><td>截止日期</td><td>Deadline</td></tr><tr><td>9</td><td>提醒阈值</td><td>Reminder threshold</td></tr><tr><td>10</td><td>完成率低于 60% 时提醒负责人</td><td>Notify the team lead when completion falls below 60%</td></tr><tr><td>11</td><td>删除目标后不能恢复，请先确认。</td><td>A deleted objective cannot be restored. Please confirm before deleting it.</td></tr><tr><td>12</td><td>查看 [帮助中心](https://example.org/help)。接口字段 `goal_id` 和变量 {member_name} 必须保留。</td><td>See the [Help Center](https://example.org/help). The API field `goal_id` and the variable {member_name} must remain unchanged.</td></tr></tbody></table>
+<h2>完整记录</h2><pre>{
+  &quot;status&quot;: &quot;PASS_AUTOMATED&quot;,
+  &quot;semantic&quot;: &quot;UNVERIFIED&quot;,
+  &quot;layout&quot;: &quot;UNVERIFIED&quot;,
+  &quot;files&quot;: [
+    {
+      &quot;file&quot;: &quot;help.md&quot;,
+      &quot;status&quot;: &quot;PASS_AUTOMATED&quot;,
+      &quot;detail&quot;: &quot;保护内容初检通过；仍需语义审校&quot;
+    }
+  ],
+  &quot;pairs&quot;: [
+    {
+      &quot;id&quot;: &quot;1&quot;,
+      &quot;source&quot;: &quot;目标管理使用说明&quot;,
+      &quot;translation&quot;: &quot;Guide to objective management&quot;
+    },
+    {
+      &quot;id&quot;: &quot;2&quot;,
+      &quot;source&quot;: &quot;团队负责人可以创建目标，团队成员只能更新自己负责的关键结果。&quot;,
+      &quot;translation&quot;: &quot;A team lead can create an objective. A team member can only update a key result assigned to them.&quot;
+    },
+    {
+      &quot;id&quot;: &quot;3&quot;,
+      &quot;source&quot;: &quot;更新进度&quot;,
+      &quot;translation&quot;: &quot;Update progress&quot;
+    },
+    {
+      &quot;id&quot;: &quot;4&quot;,
+      &quot;source&quot;: &quot;打开目标详情，选择需要更新的关键结果。&quot;,
+      &quot;translation&quot;: &quot;Open the objective details and select the key result to update.&quot;
+    },
+    {
+      &quot;id&quot;: &quot;5&quot;,
+      &quot;source&quot;: &quot;填写进展说明后保存；进度更新不需要负责人审核。&quot;,
+      &quot;translation&quot;: &quot;Enter a progress note and save. Progress updates do not require approval from the team lead.&quot;
+    },
+    {
+      &quot;id&quot;: &quot;6&quot;,
+      &quot;source&quot;: &quot;字段&quot;,
+      &quot;translation&quot;: &quot;Field&quot;
+    },
+    {
+      &quot;id&quot;: &quot;7&quot;,
+      &quot;source&quot;: &quot;说明&quot;,
+      &quot;translation&quot;: &quot;Description&quot;
+    },
+    {
+      &quot;id&quot;: &quot;8&quot;,
+      &quot;source&quot;: &quot;截止日期&quot;,
+      &quot;translation&quot;: &quot;Deadline&quot;
+    },
+    {
+      &quot;id&quot;: &quot;9&quot;,
+      &quot;source&quot;: &quot;提醒阈值&quot;,
+      &quot;translation&quot;: &quot;Reminder threshold&quot;
+    },
+    {
+      &quot;id&quot;: &quot;10&quot;,
+      &quot;source&quot;: &quot;完成率低于 60% 时提醒负责人&quot;,
+      &quot;translation&quot;: &quot;Notify the team lead when completion falls below 60%&quot;
+    },
+    {
+      &quot;id&quot;: &quot;11&quot;,
+      &quot;source&quot;: &quot;删除目标后不能恢复，请先确认。&quot;,
+      &quot;translation&quot;: &quot;A deleted objective cannot be restored. Please confirm before deleting it.&quot;
+    },
+    {
+      &quot;id&quot;: &quot;12&quot;,
+      &quot;source&quot;: &quot;查看 [帮助中心](https://example.org/help)。接口字段 `goal_id` 和变量 {member_name} 必须保留。&quot;,
+      &quot;translation&quot;: &quot;See the [Help Center](https://example.org/help). The API field `goal_id` and the variable {member_name} must remain unchanged.&quot;
+    }
+  ],
+  &quot;warnings&quot;: [
+    &quot;Frontmatter 保留原样&quot;,
+    &quot;代码围栏保留原样&quot;,
+    &quot;Frontmatter 保留原样&quot;,
+    &quot;代码围栏保留原样&quot;
+  ]
+}</pre></html>
